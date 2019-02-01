@@ -8,6 +8,6 @@ def line(katz_deli)
     return "The line is currently empty."
   else
     katz_deli.each_with_index do |name, place|
-      return "The line is"
+      return "The line is currently"
 end
 end
