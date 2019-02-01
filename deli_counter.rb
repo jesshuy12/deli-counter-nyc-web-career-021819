@@ -7,6 +7,6 @@ def line(katz_deli)
   if katz_deli.size == 0
     return "The line is currently empty."
   else
-    katz_deli.with_index_of do |
+    katz_deli.each_with_index do |
 end
 end
