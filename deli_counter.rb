@@ -9,5 +9,6 @@ def line(katz_deli)
   else
     katz_deli.each_with_index do |name, place|
       return "The line is currently #{place+1}, #{name}"
+    end
 end
 end
